@@ -12,6 +12,7 @@
       div.blanco{
           background-color: white;
           width: 100px;
+          border: 1px solid black;
           height: 100px;
           text-align: center;
       }
@@ -19,6 +20,7 @@
           background-color: black;
           color: white;
           width: 100px;
+          border: 1px solid black;
           height: 100px;
           text-align: center;
       }
@@ -30,14 +32,11 @@
       .principal{
         background-color: brown;
       }
-      .badge-primary{
-              margin-top: 
-              background-color: rgb(42, 218, 42);
-      }
+      
       </style>
 </head>
 <body class="principal">
-        <div class="">
+        
                 <button type="button" class="c_one btn-lg">1</button>
                 <button type="button" class="c_dos btn-lg">2</button>
                 <button type="button" class="c_tres btn-lg">3</button>
@@ -46,7 +45,7 @@
                 <button type="button" class="c_six btn-lg">6</button>
                 <button type="button" class="c_seven btn-lg">7</button>
                 <button type="button" class="c_eight btn-lg">8</button>
-        </div>
+        
     <div class="container">
         <div class="row">
                 <div class="primero dos ex blanco invdiag seven eight">1</div>
@@ -134,19 +133,386 @@
 </html>
 <script type="text/javascript">
 //cuatro cuadros en esquina -- LISTO
-$('.c_one').click(function(){$('.primero').css("background-color", "yellow");});
+$('.c_one').click(function(){
+        $("div").css({"background-color":"white"});
+        $(".row").find("div").eq(0).css({"background-color":"red"})
+        .end()
+        .eq(7)
+        .css({"background-color":"red"})
+        .end()
+        .eq(56)
+        .css({"background-color":"red"})
+        .end()
+        .eq(63)
+        .css({"background-color":"red"});
+
+
+});
 //cuatro cuadros en esquina -- LISTO
-$('.c_dos').click(function(){$('.dos').css("background-color","blue" )});
+$('.c_dos').click(function(){
+        $("div").css({"background-color":"white"});
+        $(".row").find("div").eq(0).css({"background-color":"red"})
+        .end()
+        .eq(1)
+        .css({"background-color":"red"})
+        .end()
+        .eq(2)
+        .css({"background-color":"red"})
+        .end()
+        .eq(3)
+        .css({"background-color":"red"})
+        .end()
+        .eq(4)
+        .css({"background-color":"red"})
+        .end()
+        .eq(5)
+        .css({"background-color":"red"})
+        .end()
+        .eq(6)
+        .css({"background-color":"red"})
+        .end()
+        .eq(7)
+        .css({"background-color":"red"})
+        .end()
+        .eq(14)
+        .css({"background-color":"red"})
+        .end()
+        .eq(21)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(42)
+        .css({"background-color":"red"})
+        .end()
+        .eq(49)
+        .css({"background-color":"red"})
+        .end()
+        .eq(56)
+        .css({"background-color":"red"})
+        .end()
+        .eq(57)
+        .css({"background-color":"red"})
+        .end()
+        .eq(58)
+        .css({"background-color":"red"})
+        .end()
+        .eq(59)
+        .css({"background-color":"red"})
+        .end()
+        .eq(60)
+        .css({"background-color":"red"})
+        .end()
+        .eq(61)
+        .css({"background-color":"red"})
+        .end()
+        .eq(62)
+        .css({"background-color":"red"})
+        .end()
+        .eq(63)
+        .css({"background-color":"red"})
+        .end()
+        .eq(64)
+        .css({"background-color":"red"});
+});
 //cuatro cuadros en esquina -- LISTO
-$('.c_tres').click(function(){$('.ex').css("background-color", "green")});
+$('.c_tres').click(function(){ $("div").css({"background-color":"black"});
+        $(".row").find("div").eq(0).css({"background-color":"red"})
+        .end().eq(9)
+        .css({"background-color":"red"})
+        .end()
+        .eq(18).css({"background-color":"red"})
+        .end()
+        .eq(27).css({"background-color":"red"})
+        .end()
+        .eq(36).css({"background-color":"red"})
+        .end()
+        .eq(45).css({"background-color":"red"})
+        .end()
+        .eq(56).css({"background-color":"red"})
+        .end()
+        .eq(7)
+        .css({"background-color":"red"})
+        .end()
+        .eq(14)
+        .css({"background-color":"red"})
+        .end()
+        .eq(21)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(42)
+        .css({"background-color":"red"})
+        .end()
+        .eq(49)
+        .css({"background-color":"red"})
+        .end()
+        .eq(54)
+        .css({"background-color":"red"})
+        .end()
+        .eq(63)
+        .css({"background-color":"red"});
+    });
+
 //cuatro cuadros en esquina -- LISTO
-$('.c_cuatro').click(function(){$('.mas').css("background-color", "#196F3D")});
+$('.c_cuatro').click(function(){$("div").css({"background-color":"white"});
+        $(".row").find("div").eq(3).css({"background-color":"red"})
+        .end()
+        .eq(4)
+        .css({"background-color":"red"})
+        .end()
+        .eq(11)
+        .css({"background-color":"red"})
+        .end()
+        .eq(12)
+        .css({"background-color":"red"})
+        .end()
+        .eq(19)
+        .css({"background-color":"red"})
+        .end()
+        .eq(20)
+        .css({"background-color":"red"})
+        .end()
+        .eq(27)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(36)
+        .css({"background-color":"red"})
+        .end()
+        .eq(43)
+        .css({"background-color":"red"})
+        .end()
+        .eq(44)
+        .css({"background-color":"red"})
+        .end()
+        .eq(51)
+        .css({"background-color":"red"})
+        .end()
+        .eq(52)
+        .css({"background-color":"red"})
+        .end()
+        .eq(59)
+        .css({"background-color":"red"})
+        .end()
+        .eq(60)
+        .css({"background-color":"red"})
+        .end()
+        .eq(24)
+        .css({"background-color":"red"})
+        .end()
+        .eq(25)
+        .css({"background-color":"red"})
+        .end()
+        .eq(26)
+        .css({"background-color":"red"})
+        .end()
+        .eq(27)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(29)
+        .css({"background-color":"red"})
+        .end()
+        .eq(30)
+        .css({"background-color":"red"})
+        .end()
+        .eq(31)
+        .css({"background-color":"red"})
+        .end()
+        .eq(32)
+        .css({"background-color":"red"})
+        .end()
+        .eq(33)
+        .css({"background-color":"red"})
+        .end()
+        .eq(34)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(36)
+        .css({"background-color":"red"})
+        .end()
+        .eq(37)
+        .css({"background-color":"red"})
+        .end()
+        .eq(38)
+        .css({"background-color":"red"})
+        .end()
+        .eq(39)
+        .css({"background-color":"red"});
+    });
 
-$('.c_cinco').click(function(){$('.diago').css("background-color", "#34495E")});
+$('.c_cinco').click(function(){$("div").css({"background-color":"white"});
+        $(".row").find("div").eq(7).css({"background-color":"red"})
+        .end()
+        .eq(14)
+        .css({"background-color":"red"})
+        .end()
+        .eq(21)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(42)
+        .css({"background-color":"red"})
+        .end()
+        .eq(49)
+        .css({"background-color":"red"})
+        .end()
+        .eq(56)
+        .css({"background-color":"red"});
+});
 
-$('.c_six').click(function(){$('.invdiag').css("background-color", "#3498DB")});
+$('.c_six').click(function(){
+        $("div").css({"background-color":"white"});
+        $(".row").find("div").eq(0).css({"background-color":"red"})
+        .end()
+        .eq(9)
+        .css({"background-color":"red"})
+        .end()
+        .eq(18)
+        .css({"background-color":"red"})
+        .end()
+        .eq(27)
+        .css({"background-color":"red"})
+        .end()
+        .eq(36)
+        .css({"background-color":"red"})
+        .end()
+        .eq(45)
+        .css({"background-color":"red"})
+        .end()
+        .eq(54)
+        .css({"background-color":"red"})
+        .end()
+        .eq(63)
+        .css({"background-color":"red"});
+});
 
-$('.c_seven').click(function(){$('.seven').css("background-color", "#F39C12")});
+$('.c_seven').click(function(){
+        $("div").css({"background-color":"white"});
+        $(".row").find("div").eq(0).css({"background-color":"red"})
+        .end()
+        .eq(1)
+        .css({"background-color":"red"})
+        .end()
+        .eq(2)
+        .css({"background-color":"red"})
+        .end()
+        .eq(3)
+        .css({"background-color":"red"})
+        .end()
+        .eq(4)
+        .css({"background-color":"red"})
+        .end()
+        .eq(5)
+        .css({"background-color":"red"})
+        .end()
+        .eq(6)
+        .css({"background-color":"red"})
+        .end()
+        .eq(7)
+        .css({"background-color":"red"})
+        .end()
+        .eq(8)
+        .css({"background-color":"red"})
+        .end()
+        .eq(15)
+        .css({"background-color":"red"})
+        .end()
+        .eq(16)
+        .css({"background-color":"red"})
+        .end()
+        .eq(23)
+        .css({"background-color":"red"})
+        .end()
+        .eq(24)
+        .css({"background-color":"red"})
+        .end()
+        .eq(31)
+        .css({"background-color":"red"})
+        .end()
+        .eq(32)
+        .css({"background-color":"red"})
+        .end()
+        .eq(39)
+        .css({"background-color":"red"})
+        .end()
+        .eq(40)
+        .css({"background-color":"red"})
+        .end()
+        .eq(47)
+        .css({"background-color":"red"})
+        .end()
+        .eq(48)
+        .css({"background-color":"red"})
+        .end()
+        .eq(55)
+        .css({"background-color":"red"})
+        .end()
+        .eq(56)
+        .css({"background-color":"red"})
+        .end()
+        .eq(57)
+        .css({"background-color":"red"})
+        .end()
+        .eq(58)
+        .css({"background-color":"red"})
+        .end()
+        .eq(59)
+        .css({"background-color":"red"})
+        .end()
+        .eq(60)
+        .css({"background-color":"red"})
+        .end()
+        .eq(61)
+        .css({"background-color":"red"})
+        .end()
+        .eq(62)
+        .css({"background-color":"red"})
+        .end()
+        .eq(63)
+        .css({"background-color":"red"})
+        .end()
+        .eq(64)
+        .css({"background-color":"red"});
+});
 
-$('.c_eight').click(function(){$('.eight').css("background-color", "#8E44AD")});
+$('.c_eight').click(function(){$("div").css({"background-color":"white"});
+        $(".row").find("div").eq(27).css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(28)
+        .css({"background-color":"red"})
+        .end()
+        .eq(35)
+        .css({"background-color":"red"})
+        .end()
+        .eq(36)
+        .css({"background-color":"red"});});
 </script>
